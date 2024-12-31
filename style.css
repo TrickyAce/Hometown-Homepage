@@ -6,7 +6,7 @@ body{
 
 .hero{
   background-image: url("https://lh5.googleusercontent.com/p/AF1QipNHmS6dSqbsBergVT9-WaeJ7co8MR89-VGoUkjj=w675-h390-n-k-no");
-  background-size: cover;
+  background-size: contain;
   padding: 100px;
   line-height: 1.5;
 }
