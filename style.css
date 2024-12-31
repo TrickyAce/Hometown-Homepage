@@ -1,0 +1,86 @@
+body{
+  text-align: center;
+  font-family: "Spinnaker", serif;
+  margin: 0;
+}
+
+.hero{
+  background-image: url("https://lh5.googleusercontent.com/p/AF1QipNHmS6dSqbsBergVT9-WaeJ7co8MR89-VGoUkjj=w675-h390-n-k-no");
+  padding: 100px ;
+  line-height: 1.5;
+}
+
+#heading{
+  display: inline;
+  color: #B0C0CA;
+  background: #756564;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#about-ibadan{
+  color: #CFD6DB;
+  background: #37322B;
+  padding: 10px 40px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.visit{
+  display: flex;
+  background: #CFD6DB;
+  padding: 50px;
+  gap: 20px;
+}
+
+.img-border{
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  border: solid 3px #7C7B71;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.guide-card{
+  width: 500px;
+  margin: 80px auto;
+  padding: 30px 10px;
+  justify-content: space-around;
+  display: flex;
+  background: #5B5658;
+  align-items: center;
+  color: #CFD6DB;
+  gap: 10px;
+  border-radius: 10px;
+  border-bottom: solid 7px #0C0807;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.guide-img{
+  width: 200px;
+  height: 300px;
+  border-radius: 7px;
+}
+
+.footer{
+  font-family: none;
+}
+
+#heading:hover{
+  border: solid 3px #0C0807;
+  background: #CFD6DB;
+  color: #2B271D;
+  transform: scale(1.2);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img-border:hover{
+  transform: scale(1.1);
+  filter: brightness(1.2) contrast(1.1);
+  border: solid 3px #2B271D;
+}
+
+.guide-card:hover{
+  transform: scale(1.1);
+}
